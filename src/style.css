@@ -225,7 +225,7 @@ a:visited {
 
 /**********LIGHTBOX START**********/
 body:after {
-  content: url(src/img/prev.png) url(src/img/next.png);
+  content: url(img/prev.png) url(img/next.png);
   display: none;
 }
 
@@ -301,7 +301,7 @@ body.lb-disable-scrolling {
     width: 34%;
     margin-left: -15px;
     float: left;
-    background: url(src/img/prev.png) left 48% no-repeat;
+    background: url(img/prev.png) left 48% no-repeat;
     filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
     opacity: 0;
     -webkit-transition: opacity 0.6s;
@@ -319,7 +319,7 @@ body.lb-disable-scrolling {
     width: 64%;
     margin-right: -15px;
     float: right;
-    background: url(src/img/next.png) right 48% no-repeat;
+    background: url(img/next.png) right 48% no-repeat;
     filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
     opacity: 0;
     -webkit-transition: opacity 0.6s;
