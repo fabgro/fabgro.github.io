@@ -1,51 +1,53 @@
 ﻿<!DOCTYPE html>
+
 <html>
 <head>
-    <title>FABIAN GR&Ouml;NING</title>
-    <meta name="description" content="Fabian Gröning. Artist based in Paris and Berlin.">
-    <link rel="shortcut icon" href="src/img/icon.png" type="image/png" />
-    <link rel="stylesheet" href="src/style.css">
+    <meta charset="utf-8" />
+    <link href="src/style.css" rel="stylesheet">
     <script src="src/jquery.js"></script>
-    <script src="src/lightbox.js"></script>
-    <script src="src/js.js"></script>
-
+    <script src="src/script.js"></script>
+    <link rel="shortcut icon" href="src/img/icon.png" type="image/png" />
+    <title>FABIAN GRÖNING</title>
 </head>
+
 <body>
-    <div class="center">
-        <div class="titlemenu">
-            <a class="title" href="http://fabiangroening.de/">FABIAN GR&Ouml;NING</a>
-            <a class="menu" href="http://fabiangroening.de/2017">2017</a>
-            <a class="menu" href="http://fabiangroening.de/2016">2016</a>
-            <a class="menu" href="http://fabiangroening.de/2015">2015</a>
-            <a class="menu" href="http://fabiangroening.de/2014">2014</a>
-            <a class="menu" href="http://fabiangroening.de/cv">CV</a>
-            <a class="menu" href="http://fabiangroening.de/exhibitions">EXHIBITIONS</a>
-        </div>
 
+    <noscript><div id="noscript">This site requires JavaScript. Please enable JavaScript in your Browser.</div></noscript>
 
-        <div class="contactbox">
-            <div class="contactcenter">
-                <div class="contactimage">
-                    <img src="http://fabiangroening.de/images/titel_3.jpg" />
-                </div>
-                    <iframe class="foxyform" style="height:475px;width:450px;border:none;" src="http://www.foxyform.de/form.php?id=194722&sec_hash=aed3ed1e0c1"></iframe>
-            </div>
-        </div>
+    <header>
+        <a href="/">FABIAN GRÖNING</a>
+        <nav>
+            <a href="2017">2017</a>
+            <a href="2016">2016</a>
+            <a href="2015">2015</a>
+            <a href="2014">2014</a>
+            <a href="cv">CV</a>
+            <a href="exhibitions">EXHIBITIONS</a>
+        </nav>
+    </header>
 
+    <main id="contact">
+        <img src="/images/contact/contact.jpg" alt="" onload="$('#contact img').css({ display: 'block' });" />
+        <form id="contactform" method="POST">
+            <p>E-MAIL</p>
+            <input type="email" name="_replyto" placeholder="YOUR EMAIL" required>
+            <p>SUBJECT</p>
+            <input type="text" name="_subject" placeholder="YOUR SUBJECT" />
+            <p>MESSAGE</p>
+            <textarea name="message" placeholder="YOUR MESSAGE" required></textarea>
+            <input type="submit" value="SEND">
+            <input type="text" name="_gotcha" style="display:none" />
+            <input type="hidden" name="_next" value="https://jongro.github.io/contact_sent" />
+        </form>
+        <script>
+            var contactform = document.getElementById('contactform');
+            contactform.setAttribute('action', '//formspree.io/' + 'fabiangroening' + '@' + 'gmail' + '.' + 'com');
+        </script>
+    </main>
 
-
-        <div class="footer">
-            <div class="imprint">
-                &copy; 2017 FABIAN GRÖNING | <a class="contact" id="menuactive" href="http://fabiangroening.de/contact">CONTACT</a>
-
-            </div>
-        </div>
-    </div>
+    <footer>
+        <div>© 2017 FABIAN GRÖNING |&nbsp;<nav><a id="active" href="contact">CONTACT</a></nav></div>
+    </footer>
 
 </body>
 </html>
-
-
-
-
-
