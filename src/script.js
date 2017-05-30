@@ -22,7 +22,7 @@ $(window).on('load resize', function () {
             width += $(this).outerWidth(true) + 4;
             $('#images').css('width', width + 38 + 'px');
         });
-
+        // buttonright bleibt bei Fenstergröße kleiner body stehen
         if ($(window).width() < 960) {                 // an Breite von body anpassen
             $("#buttonright").css({ left: '905px' });
         } else {
@@ -38,7 +38,7 @@ $(document).ready(function () {
         $('#images').css('width', width + 38 + 'px');
 
     });
-
+        // buttonright bleibt bei Fenstergröße kleiner body stehen
     if ($(window).width() < 960) {                 // an Breite von body anpassen
         $("#buttonright").css({ left: '905px' });
     } else {
