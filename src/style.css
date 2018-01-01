@@ -76,7 +76,7 @@ main {
 }
 
 #texts {
-    width: 929px; /*Breite an header anpassen*/
+    width: 736px; /*Breite an header anpassen*/
     padding-top: 6px;
     font-size: 14pt;
 }
@@ -305,7 +305,7 @@ footer {
     display: flex;
     justify-content: flex-end;
     flex-direction: column;
-    width: 929px; /*Breite an header anpassen*/
+    width: 738px /*Breite an header anpassen*/
 }
 
 footer div {
