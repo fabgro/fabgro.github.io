@@ -78,7 +78,7 @@ main {
 #texts {
     width: 736px; /*Breite an header anpassen*/
     padding-top: 6px;
-    font-size: 14pt;
+    font-size: 10pt;
 }
 
 #contact {
@@ -162,7 +162,7 @@ figure:hover figcaption {
 
 .cv2 {
     margin-left: 150px;
-    font-weight: 400;
+    font-weight: 700;
 }
 
 .cv3 {
@@ -175,7 +175,7 @@ figure:hover figcaption {
 
 .ex2 {
     margin-left: 101px;
-    font-weight: 400;
+    font-weight: 700;
 }
 
 .ex3 {
