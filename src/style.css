@@ -83,7 +83,7 @@ main {
 
 #contact {
     visibility: hidden;
-    padding-top: 13px;
+    padding-top: 10px;
     display: inline-flex;
 }
 
@@ -310,7 +310,7 @@ footer {
 
 footer div {
     padding-bottom: 5px;
-    font-size: 8pt;
+    font-size: 10pt;
     display: inline-flex;
     justify-content: flex-end;
 }
