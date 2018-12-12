@@ -7,7 +7,7 @@ html, body {
     margin: 0;
     white-space: nowrap;
     font-family: 'Open Sans';
-    color: #EF0CBE;
+    color: #222222;
 }
 
 
@@ -58,7 +58,7 @@ header nav a {
 }
 
 #active {
-    color: #00c;
+    color: #EF0CBE;
 }
 
 #load {
