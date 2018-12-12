@@ -13,9 +13,8 @@ html, body {
 
 #texts1 {
     text-align: justify;
-    padding-top: 6px;
     font-size: 10pt;
-    margin: 200px 100px 50px 100px
+    max-width: 960px
 }
 
 
