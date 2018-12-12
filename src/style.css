@@ -10,7 +10,7 @@ html, body {
     color: #222222;
 }
 
-text1 { 
+.text1 { 
     text-align:justify; 
     width: 120px; /*Breite an header anpassen*/
     padding-top: 6px;
