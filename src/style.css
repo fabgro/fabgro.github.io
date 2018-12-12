@@ -11,9 +11,6 @@ html, body {
 }
 
     
-    
-}
-
 
 body {
     overflow-y: scroll;
@@ -163,7 +160,7 @@ figure:hover figcaption {
 
 .texts1 {
     text-align: justify;
-    margin: 100px 200px 100px 200px
+    
 }
 
 .cv1 {
