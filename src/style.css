@@ -10,8 +10,10 @@ html, body {
     color: #222222;
 }
 
-justify 
-{ text-align:justify; }
+justify { 
+    text-align:justify; 
+    margin: 50px 20px 40px 20px;
+}
 
 body {
     overflow-y: scroll;
