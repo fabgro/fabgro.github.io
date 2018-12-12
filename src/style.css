@@ -11,9 +11,11 @@ html, body {
 }
 
 .text1 { 
-    text-align:justify; 
+    text-align: justify; 
     width: 120px; 
     font-size: 10pt;
+    margin-right: 50px
+    
 }
 
 
