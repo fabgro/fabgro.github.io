@@ -12,10 +12,11 @@ html, body {
 
 text1 { 
     text-align:justify; 
-    width: 736px; /*Breite an header anpassen*/
+    width: 120px; /*Breite an header anpassen*/
     padding-top: 6px;
     font-size: 10pt;
-    margin: 50px 20px 40px 20px;
+    margin-right: 20px;
+    margin-left: 20px;
 }
 
 body {
