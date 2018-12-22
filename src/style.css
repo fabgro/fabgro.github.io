@@ -14,7 +14,7 @@ html, body {
     width: 736px; /*Breite an header anpassen*/
     padding-top: 6px;
     font-size: 10pt;
-
+    margin-left: -10px;
 }
 
 body {
@@ -158,9 +158,11 @@ figure:hover figcaption {
     font-size: 8pt;
 }
 
-.h1 {
-text-align: justify;
-    margin-right: 200px
+#h1 {
+    text-align: justify;
+    margin-left: 126px;
+    width: 516px;
+    white-space: normal;
 }
 
 .cv1 {
@@ -312,7 +314,8 @@ footer {
     display: flex;
     justify-content: flex-end;
     flex-direction: column;
-    width: 738px /*Breite an header anpassen*/
+    width: 100%; /*Breite an header anpassen*/
+    margin-right: 30px;
 }
 
 footer div {
