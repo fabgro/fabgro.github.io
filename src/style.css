@@ -56,8 +56,8 @@ header nav {
 
 header .f {
     position: absolute;
-    margin-top: -90px;
-    margin-left: -650px;
+    margin-top: -100px;
+    margin-left: -645px;
     font-size: 30pt;
 }
 
@@ -89,13 +89,18 @@ header nav .e {
 }
 
 main {
-    
     margin: 50px 20px 40px 20px;
     flex: none;
 }
 
 #front {
-    visibility: hidden;
+     visibility: hidden;  
+}
+
+main .pic {
+    max-width: 100%;
+    height: auto;
+    margin-top: -20px;
 }
 
 #images {
@@ -142,10 +147,10 @@ main {
     z-index: 98;
 }
 
+
+
 main img {
-    max-width: 100%;
-    height: auto;
-    margin-top: 0px;
+    height: 400px;
    
 }
 
