@@ -27,7 +27,7 @@ body {
 }
 
 a:link {
-    color: #222222;
+    color: #c971d1;
     text-decoration: none;
     outline: none;
 }
@@ -79,7 +79,7 @@ header nav .e {
 }
 
 #active {
-    color: rgb(65, 147, 194);
+    color: rgb(182, 213, 231);
 }
 
 #load {
