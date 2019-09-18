@@ -45,7 +45,7 @@ header {
     margin-top: 100px;
     float: left;
     display: inline-flex;
-    font-size: 55pt;
+    font-size: 50pt;
     font-weight: 550;
     position: absolute;
 }
@@ -65,40 +65,41 @@ header .f {
     
 }
 
-header nav .g {
     
-    background-color: #5c87e6
-    
-}
+
 
 header nav .b {
     margin-top: 80px;
     position: absolute;
-    background-color: #5c87e6
+    color: #ffffff;
+    font-size: 55pt;
     
 }
 header nav .c {
     margin-top: 160px;
     position: absolute;
-    background-color: #5c87e6
-    
+    font-size: 55pt;
+    color: #ffffff
 }
 header nav .d {
     margin-top: 240px;
     position: absolute;
-    background-color: #5c87e6
-   
+    font-size: 55pt;
+    color: #ffffff
 }
 header nav .e {
     margin-top: 320px;
     position: absolute;
-    background-color: #5c87e6
-  
+    font-size: 55pt;
+    color: #ffffff
 }
 
 #active {
-    color: #ffffff;
-    background-color: #5c87e6
+    
+    font-size: 55pt;
+    color: #5c87e6
+    
+    
    
 }
 
