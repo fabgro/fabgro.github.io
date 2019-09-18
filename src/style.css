@@ -30,12 +30,14 @@ a:link {
     color: #ffffff;
     text-decoration: none;
     outline: none;
+   
 }
 
 a:visited {
     color: #ffffff;
     text-decoration: none;
     outline: none;
+    
 }
 
 header {
@@ -60,31 +62,44 @@ header .f {
     margin-left: -642px;
     font-size: 15pt;
     color: #5c87e6;
+    
+}
+
+header nav .g {
+    
+    background-color: #5c87e6
+    
 }
 
 header nav .b {
     margin-top: 80px;
     position: absolute;
+    background-color: #5c87e6
     
 }
 header nav .c {
     margin-top: 160px;
     position: absolute;
+    background-color: #5c87e6
     
 }
 header nav .d {
     margin-top: 240px;
     position: absolute;
+    background-color: #5c87e6
    
 }
 header nav .e {
     margin-top: 320px;
     position: absolute;
+    background-color: #5c87e6
   
 }
 
 #active {
-    color: #ffffff;;
+    color: #ffffff;
+    background-color: #5c87e6
+   
 }
 
 #load {
