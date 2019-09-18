@@ -58,7 +58,7 @@ header .f {
     position: absolute;
     margin-top: 400px;
     margin-left: -645px;
-    font-size: 30pt;
+    font-size: 20pt;
 }
 
 header nav .b {
@@ -133,7 +133,7 @@ main .pic {
     top: 0;
     left: 0;
     padding: 175px 20px 175px 0px;
-    margin-top: 147px;
+    margin-top: 50px;
     z-index: 98;
 }
 
@@ -143,14 +143,14 @@ main .pic {
     top: 0;
     right: 0;
     padding: 175px 0px 175px 20px;
-    margin-top: 147px;
+    margin-top: 50px;
     z-index: 98;
 }
 
 
 
 main img {
-    height: 400px;
+    height: 300px;
    
 }
 
