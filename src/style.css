@@ -27,13 +27,13 @@ body {
 }
 
 a:link {
-    color: #c971d1;
+    color: #fffc46;
     text-decoration: none;
     outline: none;
 }
 
 a:visited {
-    color: #c971d1;
+    color: #fffc46;
     text-decoration: none;
     outline: none;
 }
@@ -79,7 +79,7 @@ header nav .e {
 }
 
 #active {
-    color: rgb(182, 213, 231);
+    color: rgb(255, 255, 255);
 }
 
 #load {
