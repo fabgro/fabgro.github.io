@@ -192,27 +192,30 @@ figure:hover figcaption {
 
 #h1 {
     text-align: justify;
-    margin-left: 0px;
-    width: 516px;
+    margin-left: -100px;
+    width: 900px;
     white-space: normal;
 }
 
 .cv1 {
     position: absolute; 
+    margin-left:-100px;
 }
 
 .cv4 {
     color: #c23376;
+    margin-left: -100px;
 }
 
 .cv2 {
-    margin-left: 100px;
+    margin-left: 20px;
     
 }
 
 .cv3 {
     position: absolute;
     font-weight: 700;
+    margin-left: -100px;
 }
 
 .ex1 {
@@ -220,7 +223,7 @@ figure:hover figcaption {
 }
 
 .ex2 {
-    margin-left: 101px;
+    margin-left: 0px;
     font-weight: 700;
 }
 
@@ -353,6 +356,8 @@ footer {
     flex-direction: column;
     width: 100%; /*Breite an header anpassen*/
     margin-right: 30px;
+    margin-top: -30px;
+    position: relative;
     
 }
 
