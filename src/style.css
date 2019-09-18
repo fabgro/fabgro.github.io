@@ -54,12 +54,6 @@ header nav {
     position: absolute;
 }
 
-header .f {
-    position: absolute;
-    margin-top: -100px;
-    margin-left: -645px;
-    font-size: 30pt;
-}
 
 header nav .b {
     margin-top: 80px;
@@ -89,8 +83,7 @@ header nav .e {
 }
 
 main {
-    margin: 50px 20px 40px 20px;
-    flex: none;
+    
 }
 
 #front {
