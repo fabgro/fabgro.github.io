@@ -79,7 +79,7 @@ header nav .e {
 }
 
 #active {
-    color: #4FB4F3;
+    color: rgb(101, 185, 241);
 }
 
 #load {
@@ -124,6 +124,7 @@ main .pic {
     left: 20px;
     right: 20px;
     overflow-y: hidden;
+    
 }
 
 #buttonleft {
@@ -196,16 +197,21 @@ figure:hover figcaption {
 }
 
 .cv1 {
-    position: absolute;
+    position: absolute; 
+}
+
+.cv4 {
+    color: rgb(101, 185, 241);
 }
 
 .cv2 {
-    margin-left: 150px;
-    font-weight: 700;
+    margin-left: 100px;
+    
 }
 
 .cv3 {
-    margin-left: 150px;
+    position: absolute;
+    font-weight: 700;
 }
 
 .ex1 {
