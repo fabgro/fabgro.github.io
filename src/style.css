@@ -56,7 +56,7 @@ header nav {
 
 header .f {
     position: absolute;
-    margin-top: 400px;
+    margin-top: 300px;
     margin-left: -645px;
     font-size: 15pt;
 }
@@ -201,7 +201,7 @@ figure:hover figcaption {
 }
 
 .cv4 {
-    color: rgb(55, 123, 1683;
+    color: rgb(55, 123, 168);
 }
 
 .cv2 {
