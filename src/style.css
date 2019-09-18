@@ -132,7 +132,7 @@ main .pic {
     position: absolute;
     top: 0;
     left: 0;
-    padding: 175px 20px 175px 0px;
+    padding: 175px 20px 100px 0px;
     margin-top: 70px;
     z-index: 98;
 }
