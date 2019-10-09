@@ -220,8 +220,9 @@ figure:hover figcaption {
 .cv1 {
     position: absolute; 
     margin-left:-100px;
-    font-size: 15pt;
+    font-size: 20pt;
     font-weight: 300;
+    color: #5c87e6;
 }
 
 .cv4 {
