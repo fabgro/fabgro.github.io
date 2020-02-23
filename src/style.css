@@ -286,7 +286,7 @@ figure {
 .grid figure {
 	display: block;
 	float: left;
-	padding: 7px;	        /* Spaltenanzahl */
+	padding: 10px;	        /* Spaltenanzahl */
 	width: 50%;				/* Spaltenanzahl */
 	opacity: 0;
 }
