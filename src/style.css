@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,300i,400i,500i,700i');
 
 * {
-	color: black;
+	color: #2669e6 ;
 	text-decoration: none;
 	font-family: 'Roboto', sans-serif;
 	padding: 0;
@@ -40,7 +40,7 @@ header {
 }
 
 #active {
-	color:#1d0085}
+	color:#2669e6}
 
 header a {
 	margin: 0px 7px;
