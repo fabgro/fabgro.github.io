@@ -15,7 +15,8 @@
     
     position: absolute;
     margin-left:900px;
-    max-width: 250px;
+	max-width: 250px;
+	
         
     }
 
@@ -33,7 +34,7 @@ header {
 	max-width: 1300px;
 	margin: 70px auto 0px auto;
 	height: 130px;
-	font-size: 30px;
+	font-size: 28px;
 	
 }
 
@@ -58,10 +59,11 @@ main {
 
 article {
 	margin: auto 7px;
+	font-size: 28px;
 }
 
 h1 {
-	font-size: 24px;
+	font-size: 28px;
 }
 
 p {
