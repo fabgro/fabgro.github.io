@@ -277,6 +277,8 @@ body, html {
 figure {
 	padding: 0;
 	margin: 0;
+	justify-self: center;
+align-self: center;
 }
 
 
@@ -284,14 +286,17 @@ figure {
 	list-style: none;
 	margin: 0 auto;
 	padding: 0;
+	
+	
 }
 
 .grid figure {
 	display: block;
 	float: left;
 	padding: 10px;	        /* Spaltenanzahl */
-	width: 50%;				/* Spaltenanzahl */
+	width: 800px;				/* Spaltenanzahl */
 	opacity: 0;
+	
 }
 
 .grid figure.shown,
