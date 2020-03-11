@@ -4,7 +4,7 @@
 * {
 	color: #2669e6 ;
 	text-decoration: none;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Arial', sans-serif;
 	padding: 0;
 	margin: 0;
 	line-height: 1;
@@ -294,7 +294,7 @@ align-self: center;
 	display: block;
 	float: left;
 	padding: 10px;	        /* Spaltenanzahl */
-	width: 1000px;				/* Spaltenanzahl */
+	width: 220px;				/* Spaltenanzahl */
 	opacity: 0;
 	
 }
