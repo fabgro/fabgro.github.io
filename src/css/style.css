@@ -4,9 +4,9 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Arial', sans-serif;
     font-weight: 300;
-    color: #C4AD53;
+    color: #222a55;
     text-decoration: none;
     border: none;
     box-sizing: content-box;
@@ -14,7 +14,7 @@
 }
 
 a:hover, a:active, a:link, a:visited {
-    color: #C4AD53;
+    color: #222a55;
     text-decoration: none;
 }
 
@@ -24,9 +24,9 @@ html {
 }
 
 body {
-    margin: 3vw 3vw 0 3vw;
-    padding-top: 13vw;
-    font-size: 1.25rem;
+    margin: 0 3vw 0 3vw;
+    padding-top: 11vw;
+    font-size: 1.40rem;
 }
 
 #title {
@@ -36,7 +36,7 @@ body {
     white-space: nowrap;
     top: 0;
     font-size: 11vw;
-    font-weight: 600;
+    font-weight: 300;
     mix-blend-mode: exclusion;
     z-index: 9999;
 }
