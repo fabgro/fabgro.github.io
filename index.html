@@ -288,13 +288,13 @@ nameButton.addEventListener('click', (event) => {
   if (isTouchDevice) {
     window.setTimeout(() => {
       content.classList.add('touch-logo-blue');
-    }, 1300 + (reducedMotion ? 0 : 1600));
+    }, 1300 + (reducedMotion ? 0 : 900));
   }
 
   if (event.detail === 0) {
     window.setTimeout(() => {
       linkedinLink.focus({ preventScroll: true });
-    }, reducedMotion ? 0 : 1710);
+    }, reducedMotion ? 0 : 1010);
   }
 
 });
