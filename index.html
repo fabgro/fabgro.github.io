@@ -158,8 +158,8 @@ body {
   cursor: pointer;
   transform: scale(1);
   transform-origin: center center;
-  transition: transform 0.4s cubic-bezier(.3332, .5190, .6160, .8225),
-              opacity 0.4s ease;
+  transition: transform 0.3s cubic-bezier(.3332, .5190, .6160, .8225),
+              opacity 0.3s ease;
 }
 
 @media (hover: none) and (pointer: coarse) {
@@ -288,7 +288,7 @@ nameButton.addEventListener('click', (event) => {
   if (isTouchDevice) {
     window.setTimeout(() => {
       content.classList.add('touch-logo-blue');
-    }, 500 + (reducedMotion ? 0 : 1600));
+    }, 700 + (reducedMotion ? 0 : 1600));
   }
 
   if (event.detail === 0) {
